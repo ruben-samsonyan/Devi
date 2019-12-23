@@ -10,6 +10,25 @@
 		F00210D323B03FB200F291F2 /* Devi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00210C923B03FB100F291F2 /* Devi.framework */; };
 		F00210D823B03FB200F291F2 /* DeviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210D723B03FB200F291F2 /* DeviTests.swift */; };
 		F00210DA23B03FB200F291F2 /* Devi.h in Headers */ = {isa = PBXBuildFile; fileRef = F00210CC23B03FB100F291F2 /* Devi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00210FA23B0447000F291F2 /* DeclarativeView+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210E523B0447000F291F2 /* DeclarativeView+UIView.swift */; };
+		F00210FB23B0447000F291F2 /* DeclarativeView+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210E623B0447000F291F2 /* DeclarativeView+UILabel.swift */; };
+		F00210FC23B0447000F291F2 /* DeclarativeView+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210E723B0447000F291F2 /* DeclarativeView+UITextField.swift */; };
+		F00210FD23B0447000F291F2 /* DeclarativeView+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210E823B0447000F291F2 /* DeclarativeView+UITextView.swift */; };
+		F00210FE23B0447000F291F2 /* DeclarativeView+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210E923B0447000F291F2 /* DeclarativeView+UIStackView.swift */; };
+		F00210FF23B0447000F291F2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210EB23B0447000F291F2 /* UIView+Extensions.swift */; };
+		F002110023B0447000F291F2 /* HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210EC23B0447000F291F2 /* HStack.swift */; };
+		F002110123B0447000F291F2 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210ED23B0447000F291F2 /* VStack.swift */; };
+		F002110223B0447000F291F2 /* DeclarativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210EE23B0447000F291F2 /* DeclarativeView.swift */; };
+		F002110323B0447000F291F2 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F023B0447000F291F2 /* Constraints.swift */; };
+		F002110423B0447000F291F2 /* DimensionalConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F123B0447000F291F2 /* DimensionalConstraints.swift */; };
+		F002110523B0447000F291F2 /* PaddingConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F223B0447000F291F2 /* PaddingConstraints.swift */; };
+		F002110623B0447000F291F2 /* NSLayoutAnchor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F323B0447000F291F2 /* NSLayoutAnchor+Extension.swift */; };
+		F002110723B0447000F291F2 /* NSLayoutDimension+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F423B0447000F291F2 /* NSLayoutDimension+Extension.swift */; };
+		F002110823B0447000F291F2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F523B0447000F291F2 /* EdgeInsets.swift */; };
+		F002110923B0447000F291F2 /* HasAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F623B0447000F291F2 /* HasAnchors.swift */; };
+		F002110A23B0447100F291F2 /* CenteringConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F723B0447000F291F2 /* CenteringConstraints.swift */; };
+		F002110B23B0447100F291F2 /* HuggingAndResistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F823B0447000F291F2 /* HuggingAndResistance.swift */; };
+		F002110C23B0447100F291F2 /* MarginConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00210F923B0447000F291F2 /* MarginConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +48,25 @@
 		F00210D223B03FB200F291F2 /* DeviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00210D723B03FB200F291F2 /* DeviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviTests.swift; sourceTree = "<group>"; };
 		F00210D923B03FB200F291F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00210E523B0447000F291F2 /* DeclarativeView+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeclarativeView+UIView.swift"; sourceTree = "<group>"; };
+		F00210E623B0447000F291F2 /* DeclarativeView+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeclarativeView+UILabel.swift"; sourceTree = "<group>"; };
+		F00210E723B0447000F291F2 /* DeclarativeView+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeclarativeView+UITextField.swift"; sourceTree = "<group>"; };
+		F00210E823B0447000F291F2 /* DeclarativeView+UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeclarativeView+UITextView.swift"; sourceTree = "<group>"; };
+		F00210E923B0447000F291F2 /* DeclarativeView+UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeclarativeView+UIStackView.swift"; sourceTree = "<group>"; };
+		F00210EB23B0447000F291F2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F00210EC23B0447000F291F2 /* HStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HStack.swift; sourceTree = "<group>"; };
+		F00210ED23B0447000F291F2 /* VStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		F00210EE23B0447000F291F2 /* DeclarativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeclarativeView.swift; sourceTree = "<group>"; };
+		F00210F023B0447000F291F2 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		F00210F123B0447000F291F2 /* DimensionalConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimensionalConstraints.swift; sourceTree = "<group>"; };
+		F00210F223B0447000F291F2 /* PaddingConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingConstraints.swift; sourceTree = "<group>"; };
+		F00210F323B0447000F291F2 /* NSLayoutAnchor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutAnchor+Extension.swift"; sourceTree = "<group>"; };
+		F00210F423B0447000F291F2 /* NSLayoutDimension+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutDimension+Extension.swift"; sourceTree = "<group>"; };
+		F00210F523B0447000F291F2 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		F00210F623B0447000F291F2 /* HasAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasAnchors.swift; sourceTree = "<group>"; };
+		F00210F723B0447000F291F2 /* CenteringConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteringConstraints.swift; sourceTree = "<group>"; };
+		F00210F823B0447000F291F2 /* HuggingAndResistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuggingAndResistance.swift; sourceTree = "<group>"; };
+		F00210F923B0447000F291F2 /* MarginConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +91,7 @@
 		F00210BF23B03FB100F291F2 = {
 			isa = PBXGroup;
 			children = (
+				F00210E323B03FC300F291F2 /* Sources */,
 				F00210CB23B03FB100F291F2 /* Devi */,
 				F00210D623B03FB200F291F2 /* DeviTests */,
 				F00210CA23B03FB100F291F2 /* Products */,
@@ -84,6 +123,56 @@
 				F00210D923B03FB200F291F2 /* Info.plist */,
 			);
 			path = DeviTests;
+			sourceTree = "<group>";
+		};
+		F00210E323B03FC300F291F2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F00210EF23B0447000F291F2 /* Constraints */,
+				F00210E423B0447000F291F2 /* Style */,
+				F00210EA23B0447000F291F2 /* Views */,
+				F00210EE23B0447000F291F2 /* DeclarativeView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F00210E423B0447000F291F2 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				F00210E523B0447000F291F2 /* DeclarativeView+UIView.swift */,
+				F00210E623B0447000F291F2 /* DeclarativeView+UILabel.swift */,
+				F00210E723B0447000F291F2 /* DeclarativeView+UITextField.swift */,
+				F00210E823B0447000F291F2 /* DeclarativeView+UITextView.swift */,
+				F00210E923B0447000F291F2 /* DeclarativeView+UIStackView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		F00210EA23B0447000F291F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00210EB23B0447000F291F2 /* UIView+Extensions.swift */,
+				F00210EC23B0447000F291F2 /* HStack.swift */,
+				F00210ED23B0447000F291F2 /* VStack.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F00210EF23B0447000F291F2 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				F00210F023B0447000F291F2 /* Constraints.swift */,
+				F00210F123B0447000F291F2 /* DimensionalConstraints.swift */,
+				F00210F223B0447000F291F2 /* PaddingConstraints.swift */,
+				F00210F323B0447000F291F2 /* NSLayoutAnchor+Extension.swift */,
+				F00210F423B0447000F291F2 /* NSLayoutDimension+Extension.swift */,
+				F00210F523B0447000F291F2 /* EdgeInsets.swift */,
+				F00210F623B0447000F291F2 /* HasAnchors.swift */,
+				F00210F723B0447000F291F2 /* CenteringConstraints.swift */,
+				F00210F823B0447000F291F2 /* HuggingAndResistance.swift */,
+				F00210F923B0447000F291F2 /* MarginConstraints.swift */,
+			);
+			path = Constraints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +237,7 @@
 				TargetAttributes = {
 					F00210C823B03FB100F291F2 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					F00210D123B03FB200F291F2 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +285,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00210FF23B0447000F291F2 /* UIView+Extensions.swift in Sources */,
+				F002110A23B0447100F291F2 /* CenteringConstraints.swift in Sources */,
+				F002110623B0447000F291F2 /* NSLayoutAnchor+Extension.swift in Sources */,
+				F002110823B0447000F291F2 /* EdgeInsets.swift in Sources */,
+				F002110223B0447000F291F2 /* DeclarativeView.swift in Sources */,
+				F002110423B0447000F291F2 /* DimensionalConstraints.swift in Sources */,
+				F002110923B0447000F291F2 /* HasAnchors.swift in Sources */,
+				F002110323B0447000F291F2 /* Constraints.swift in Sources */,
+				F00210FB23B0447000F291F2 /* DeclarativeView+UILabel.swift in Sources */,
+				F00210FC23B0447000F291F2 /* DeclarativeView+UITextField.swift in Sources */,
+				F002110123B0447000F291F2 /* VStack.swift in Sources */,
+				F002110023B0447000F291F2 /* HStack.swift in Sources */,
+				F002110C23B0447100F291F2 /* MarginConstraints.swift in Sources */,
+				F00210FD23B0447000F291F2 /* DeclarativeView+UITextView.swift in Sources */,
+				F00210FA23B0447000F291F2 /* DeclarativeView+UIView.swift in Sources */,
+				F002110B23B0447100F291F2 /* HuggingAndResistance.swift in Sources */,
+				F002110523B0447000F291F2 /* PaddingConstraints.swift in Sources */,
+				F00210FE23B0447000F291F2 /* DeclarativeView+UIStackView.swift in Sources */,
+				F002110723B0447000F291F2 /* NSLayoutDimension+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +449,7 @@
 		F00210DE23B03FB200F291F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubensamsonyan.Devi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +474,7 @@
 		F00210DF23B03FB200F291F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +498,7 @@
 		F00210E123B03FB200F291F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeviTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +516,7 @@
 		F00210E223B03FB200F291F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeviTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
